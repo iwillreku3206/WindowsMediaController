@@ -22,9 +22,6 @@ jobs:
         # Install workloads needed for WPF/WinForms
         dotnet-quality: ga
 
-    - name: Install Windows Desktop workload
-      run: dotnet workload install windowsdesktop
-
     - name: Restore dependencies
       run: dotnet restore
 
