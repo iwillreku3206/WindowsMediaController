@@ -21,6 +21,9 @@ jobs:
         dotnet-version: 9.0.x
         # Install workloads needed for WPF/WinForms
         dotnet-quality: ga
+  
+    - name: Install Windows 10 SDK
+      run: choco install windows-sdk-10-version-1809-all -y
 
     - name: Restore dependencies
       run: dotnet restore
