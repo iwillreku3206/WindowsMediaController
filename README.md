@@ -133,11 +133,5 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ### System Requirements Details
 - **Minimum Windows Version**: Windows 10 build 17763 (October 2018 Update)
-- **Recommended**: Windows 11 for best compatibility
 - **Memory**: ~10-20 MB RAM usage
 - **Disk**: <5 MB installation size
-
-## Acknowledgments
-
-- Built using Microsoft's Global System Media Transport Controls API
-- Inspired by the need for universal media controls on Windows
